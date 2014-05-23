@@ -92,24 +92,24 @@ namespace Tests.Models
         }
 
 
-        [Test]
-        public void SessaoComInicioIgualAFim()
-        {
-            Espetaculo ivete = new Espetaculo();
+        //[Test]
+        //public void SessaoComInicioIgualAFim()
+        //{
+        //    Espetaculo ivete = new Espetaculo();
          
-            DateTime data = new DateTime(2014, 2, 10);
+        //    DateTime data = new DateTime(2014, 2, 10);
 
-            IList<Sessao> sessoesFakes = new List<Sessao>();
-            sessoesFakes.Add(new Sessao()
-            {
-                 Inicio = data,
+        //    IList<Sessao> sessoesFakes = new List<Sessao>();
+        //    sessoesFakes.Add(new Sessao()
+        //    {
+        //         Inicio = data,
                   
-            });
+        //    });
 
-            IList<Sessao> sessoes = ivete.CriaSessoes(data, data, Periodicidade.DIARIA);
+        //    IList<Sessao> sessoes = ivete.CriaSessoes(data, data, Periodicidade.DIARIA);
 
-            Assert.IsTrue(sessoes.First().Inicio == data);
-        }
+        //    Assert.IsTrue(sessoes.First().Inicio == data);
+        //}
 
     }
 }
