@@ -1,977 +1,732 @@
-21:43:38.103 [25] DEBUG NHibernate.SQL - 
+21:37:06.384 [29] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
+21:37:06.398 [29] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:06.398 [29] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:06.399 [29] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:06.399 [29] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:06.401 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=dbc6cdba-f389-475e-a0db-5ca0aa640857] running ISession.Dispose()
+21:37:06.401 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=dbc6cdba-f389-475e-a0db-5ca0aa640857] running ISession.Dispose()
+21:37:06.401 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=dbc6cdba-f389-475e-a0db-5ca0aa640857] executing real Dispose(True)
+21:37:06.401 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=dbc6cdba-f389-475e-a0db-5ca0aa640857] executing real Dispose(True)
+21:37:06.401 [29] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:06.401 [29] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:06.401 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:06.401 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:13.987 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=5137753d-62ad-4c49-b1b4-256e5dda237d] opened session at timestamp: 635364778339, for session factory: [/0a8d8b2300f04b49a758eac4b4fcc802]
+21:37:13.987 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=5137753d-62ad-4c49-b1b4-256e5dda237d] opened session at timestamp: 635364778339, for session factory: [/0a8d8b2300f04b49a758eac4b4fcc802]
+21:37:13.988 [29] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
+21:37:13.988 [29] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
+21:37:13.988 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+21:37:13.988 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+21:37:13.988 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:13.988 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:13.988 [29] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:13.988 [29] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:13.988 [29] DEBUG NHibernate.SQL - 
     SELECT
         this_.Id as Id1_0_,
         this_.Nome as Nome1_0_,
         this_.Endereco as Endereco1_0_ 
     FROM
         "Estabelecimento" this_
-21:43:38.125 [25] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:43:38.125 [25] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:43:38.126 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:43:38.126 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:43:38.126 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:43:38.126 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - processing result set
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - processing result set
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:43:38.126 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
-21:43:38.126 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.126 [25] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.126 [25] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.126 [25] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.126 [25] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
-21:43:38.126 [25] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
-21:43:38.126 [25] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
-21:43:38.126 [25] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
-21:43:38.127 [25] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:43:38.127 [25] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:43:38.127 [25] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:43:38.127 [25] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 0 ms
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 0 ms
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.127 [25] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:43:38.127 [25] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:43:38.127 [25] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:43:38.127 [25] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:43:38.127 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.127 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.127 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.127 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.127 [25] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:43:38.127 [25] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:43:38.127 [25] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:43:38.127 [25] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.127 [25] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
-21:43:38.127 [25] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:43:38.127 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:43:38.127 [25] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:43:38.127 [25] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:43:38.128 [25] DEBUG NHibernate.SQL - 
+21:37:13.988 [29] DEBUG NHibernate.SQL - 
     SELECT
-        this_.Id as Id0_0_,
-        this_.Descricao as Descricao0_0_,
-        this_.Nome as Nome0_0_,
-        this_.Estabelecimento_id as Estabele4_0_0_ 
+        this_.Id as Id1_0_,
+        this_.Nome as Nome1_0_,
+        this_.Endereco as Endereco1_0_ 
     FROM
-        "Espetaculo" this_
-21:43:38.128 [25] DEBUG NHibernate.SQL - 
+        "Estabelecimento" this_
+21:37:13.988 [29] DEBUG NHibernate.SQL - 
     SELECT
-        this_.Id as Id0_0_,
-        this_.Descricao as Descricao0_0_,
-        this_.Nome as Nome0_0_,
-        this_.Estabelecimento_id as Estabele4_0_0_ 
+        this_.Id as Id1_0_,
+        this_.Nome as Nome1_0_,
+        this_.Endereco as Endereco1_0_ 
     FROM
-        "Espetaculo" this_
-21:43:38.128 [25] DEBUG NHibernate.SQL - 
-    SELECT
-        this_.Id as Id0_0_,
-        this_.Descricao as Descricao0_0_,
-        this_.Nome as Nome0_0_,
-        this_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" this_
-21:43:38.128 [25] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:43:38.128 [25] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:43:38.129 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:43:38.129 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:43:38.129 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:43:38.129 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - processing result set
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - processing result set
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:43:38.129 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id0_0_
-21:43:38.129 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id0_0_
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.129 [25] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.129 [25] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.129 [25] DEBUG NHibernate.Type.StringType - returning 'Espetáculo que se passa em Londres' as column: Descricao0_0_
-21:43:38.129 [25] DEBUG NHibernate.Type.StringType - returning 'Espetáculo que se passa em Londres' as column: Descricao0_0_
-21:43:38.129 [25] DEBUG NHibernate.Type.StringType - returning 'O Médico e o Monstro' as column: Nome0_0_
-21:43:38.129 [25] DEBUG NHibernate.Type.StringType - returning 'O Médico e o Monstro' as column: Nome0_0_
-21:43:38.129 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:43:38.129 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - result set row: 1
-21:43:38.129 [25] DEBUG NHibernate.Loader.Loader - result set row: 1
-21:43:38.130 [25] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id0_0_
-21:43:38.130 [25] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id0_0_
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Type.StringType - returning 'Show muito legal!' as column: Descricao0_0_
-21:43:38.130 [25] DEBUG NHibernate.Type.StringType - returning 'Show muito legal!' as column: Descricao0_0_
-21:43:38.130 [25] DEBUG NHibernate.Type.StringType - returning 'Mamma Mia!' as column: Nome0_0_
-21:43:38.130 [25] DEBUG NHibernate.Type.StringType - returning 'Mamma Mia!' as column: Nome0_0_
-21:43:38.130 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:43:38.130 [25] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - done processing result set (2 rows)
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - done processing result set (2 rows)
-21:43:38.130 [25] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:43:38.130 [25] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.130 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.130 [25] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:43:38.130 [25] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - total objects hydrated: 2
-21:43:38.130 [25] DEBUG NHibernate.Loader.Loader - total objects hydrated: 2
-21:43:38.130 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.130 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.130 [25] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#1]
-21:43:38.130 [25] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#1]
-21:43:38.130 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.130 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.130 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:43:38.130 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:43:38.130 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.130 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#1]
-21:43:38.130 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.130 [25] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#2]
-21:43:38.130 [25] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#2]
-21:43:38.130 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.130 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:43:38.131 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:43:38.131 [25] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:43:38.131 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.131 [25] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#2]
-21:43:38.131 [25] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:43:38.131 [25] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:43:38.131 [25] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:43:38.131 [25] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:43:38.131 [25] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:43:38.131 [25] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:43:38.131 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.131 [25] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:43:38.136 [25] DEBUG NHibernate.Impl.SessionImpl - [session-id=9fc56761-7087-4e99-baa6-5e540ff49c50] running ISession.Dispose()
-21:43:38.136 [25] DEBUG NHibernate.Impl.SessionImpl - [session-id=9fc56761-7087-4e99-baa6-5e540ff49c50] running ISession.Dispose()
-21:43:38.136 [25] DEBUG NHibernate.Impl.SessionImpl - [session-id=9fc56761-7087-4e99-baa6-5e540ff49c50] executing real Dispose(True)
-21:43:38.136 [25] DEBUG NHibernate.Impl.SessionImpl - [session-id=9fc56761-7087-4e99-baa6-5e540ff49c50] executing real Dispose(True)
-21:43:38.136 [25] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:43:38.136 [25] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:43:38.136 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:43:38.136 [25] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:43:39.590 [50] DEBUG NHibernate.Impl.SessionImpl - [session-id=0661d06f-5391-4ab0-8a17-4a288106263b] opened session at timestamp: 635363918195, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:43:39.590 [50] DEBUG NHibernate.Impl.SessionImpl - [session-id=0661d06f-5391-4ab0-8a17-4a288106263b] opened session at timestamp: 635363918195, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:43:39.597 [50] DEBUG NHibernate.Impl.SessionImpl - [session-id=0661d06f-5391-4ab0-8a17-4a288106263b] running ISession.Dispose()
-21:43:39.597 [50] DEBUG NHibernate.Impl.SessionImpl - [session-id=0661d06f-5391-4ab0-8a17-4a288106263b] running ISession.Dispose()
-21:43:39.597 [50] DEBUG NHibernate.Impl.SessionImpl - [session-id=0661d06f-5391-4ab0-8a17-4a288106263b] executing real Dispose(True)
-21:43:39.597 [50] DEBUG NHibernate.Impl.SessionImpl - [session-id=0661d06f-5391-4ab0-8a17-4a288106263b] executing real Dispose(True)
-21:43:39.597 [50] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:43:39.597 [50] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:43:39.597 [50] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:43:39.597 [50] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:49:46.338 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=107f6463-1185-4d88-af30-f916d99066e5] opened session at timestamp: 635363921863, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:49:46.338 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=107f6463-1185-4d88-af30-f916d99066e5] opened session at timestamp: 635363921863, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:49:46.338 [4] DEBUG NHibernate.Engine.Query.QueryPlanCache - located HQL query plan in cache (select s from Sessao s where s.Inicio > :hoje order by s.Inicio desc)
-21:49:46.338 [4] DEBUG NHibernate.Engine.Query.QueryPlanCache - located HQL query plan in cache (select s from Sessao s where s.Inicio > :hoje order by s.Inicio desc)
-21:49:46.338 [4] DEBUG NHibernate.Engine.Query.QueryPlanCache - located HQL query plan in cache (select s from Sessao s where s.Inicio > :hoje order by s.Inicio desc)
-21:49:46.338 [4] DEBUG NHibernate.Engine.Query.QueryPlanCache - located HQL query plan in cache (select s from Sessao s where s.Inicio > :hoje order by s.Inicio desc)
-21:49:46.338 [4] DEBUG NHibernate.Engine.Query.HQLQueryPlan - find: select s from Sessao s where s.Inicio > :hoje order by s.Inicio desc
-21:49:46.338 [4] DEBUG NHibernate.Engine.Query.HQLQueryPlan - find: select s from Sessao s where s.Inicio > :hoje order by s.Inicio desc
-21:49:46.338 [4] DEBUG NHibernate.Engine.QueryParameters - named parameters: {'hoje'='22/05/2014 21:49:46'}
-21:49:46.338 [4] DEBUG NHibernate.Engine.QueryParameters - named parameters: {'hoje'='22/05/2014 21:49:46'}
-21:49:46.339 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:46.339 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:46.339 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: select sessao0_.Id as Id2_, sessao0_.IngressosReservados as Ingresso2_2_, sessao0_.TotalDeIngressos as TotalDeI3_2_, sessao0_.Inicio as Inicio2_, sessao0_.Espetaculo_id as Espetaculo5_2_ from "Sessao" sessao0_ where sessao0_.Inicio>? order by sessao0_.Inicio desc limit ?
-21:49:46.339 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: select sessao0_.Id as Id2_, sessao0_.IngressosReservados as Ingresso2_2_, sessao0_.TotalDeIngressos as TotalDeI3_2_, sessao0_.Inicio as Inicio2_, sessao0_.Espetaculo_id as Espetaculo5_2_ from "Sessao" sessao0_ where sessao0_.Inicio>? order by sessao0_.Inicio desc limit ?
-21:49:46.339 [4] DEBUG NHibernate.Type.DateTimeType - binding '22/05/2014 21:49:46' to parameter: 0
-21:49:46.339 [4] DEBUG NHibernate.Type.DateTimeType - binding '22/05/2014 21:49:46' to parameter: 0
-21:49:46.339 [4] DEBUG NHibernate.Type.Int32Type - binding '10' to parameter: 1
-21:49:46.339 [4] DEBUG NHibernate.Type.Int32Type - binding '10' to parameter: 1
-21:49:46.339 [4] INFO  NHibernate.Loader.Loader - select sessao0_.Id as Id2_, sessao0_.IngressosReservados as Ingresso2_2_, sessao0_.TotalDeIngressos as TotalDeI3_2_, sessao0_.Inicio as Inicio2_, sessao0_.Espetaculo_id as Espetaculo5_2_ from "Sessao" sessao0_ where sessao0_.Inicio>@p0 order by sessao0_.Inicio desc limit @p1
-21:49:46.339 [4] INFO  NHibernate.Loader.Loader - select sessao0_.Id as Id2_, sessao0_.IngressosReservados as Ingresso2_2_, sessao0_.TotalDeIngressos as TotalDeI3_2_, sessao0_.Inicio as Inicio2_, sessao0_.Espetaculo_id as Espetaculo5_2_ from "Sessao" sessao0_ where sessao0_.Inicio>@p0 order by sessao0_.Inicio desc limit @p1
-21:49:46.339 [4] DEBUG NHibernate.SQL - 
+        "Estabelecimento" this_
+21:37:13.989 [29] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+21:37:13.989 [29] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+21:37:13.990 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+21:37:13.990 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+21:37:13.990 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+21:37:13.990 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - processing result set
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - processing result set
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result set row: 0
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result set row: 0
+21:37:13.990 [29] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.990 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.990 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result set row: 1
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result set row: 1
+21:37:13.990 [29] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id1_0_
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.990 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.990 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.990 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.990 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 2
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 2
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 3
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 3
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 4
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 4
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 5
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 5
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Id1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.991 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 6
+21:37:13.991 [29] DEBUG NHibernate.Loader.Loader - result set row: 6
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 7
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 7
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 8
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 8
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 9
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 9
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.992 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 10
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result set row: 10
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '11' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Type.Int32Type - returning '11' as column: Id1_0_
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.992 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.993 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.993 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - result set row: 11
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - result set row: 11
+21:37:13.993 [29] DEBUG NHibernate.Type.Int32Type - returning '12' as column: Id1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.Int32Type - returning '12' as column: Id1_0_
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.993 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.993 [29] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.993 [29] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - done processing result set (12 rows)
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - done processing result set (12 rows)
+21:37:13.993 [29] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+21:37:13.993 [29] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 3 ms
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 3 ms
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:13.993 [29] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:13.993 [29] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+21:37:13.993 [29] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - total objects hydrated: 12
+21:37:13.993 [29] DEBUG NHibernate.Loader.Loader - total objects hydrated: 12
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.993 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.994 [29] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:13.994 [29] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
+21:37:13.994 [29] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
+21:37:13.994 [29] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
+21:37:13.994 [29] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
+21:37:13.994 [29] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:13.994 [29] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:13.994 [29] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:13.994 [29] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:14.520 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=5137753d-62ad-4c49-b1b4-256e5dda237d] running ISession.Dispose()
+21:37:14.520 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=5137753d-62ad-4c49-b1b4-256e5dda237d] running ISession.Dispose()
+21:37:14.520 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=5137753d-62ad-4c49-b1b4-256e5dda237d] executing real Dispose(True)
+21:37:14.520 [29] DEBUG NHibernate.Impl.SessionImpl - [session-id=5137753d-62ad-4c49-b1b4-256e5dda237d] executing real Dispose(True)
+21:37:14.521 [29] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:14.521 [29] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:14.521 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:14.521 [29] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:15.500 [21] DEBUG NHibernate.Impl.SessionImpl - [session-id=233b1fd7-26a7-4ec1-ad28-152a6d4a6e5d] opened session at timestamp: 635364778354, for session factory: [/0a8d8b2300f04b49a758eac4b4fcc802]
+21:37:15.500 [21] DEBUG NHibernate.Impl.SessionImpl - [session-id=233b1fd7-26a7-4ec1-ad28-152a6d4a6e5d] opened session at timestamp: 635364778354, for session factory: [/0a8d8b2300f04b49a758eac4b4fcc802]
+21:37:15.501 [21] DEBUG NHibernate.Transaction.AdoTransaction - Begin (Unspecified)
+21:37:15.501 [21] DEBUG NHibernate.Transaction.AdoTransaction - Begin (Unspecified)
+21:37:15.501 [21] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+21:37:15.501 [21] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+21:37:15.504 [21] DEBUG NHibernate.Event.Default.DefaultSaveOrUpdateEventListener - saving transient instance
+21:37:15.504 [21] DEBUG NHibernate.Event.Default.DefaultSaveOrUpdateEventListener - saving transient instance
+21:37:15.504 [21] DEBUG NHibernate.Event.Default.AbstractSaveEventListener - saving [AgileTickets.Web.Models.Estabelecimento#<null>]
+21:37:15.504 [21] DEBUG NHibernate.Event.Default.AbstractSaveEventListener - saving [AgileTickets.Web.Models.Estabelecimento#<null>]
+21:37:15.504 [21] DEBUG NHibernate.Event.Default.AbstractSaveEventListener - executing insertions
+21:37:15.504 [21] DEBUG NHibernate.Event.Default.AbstractSaveEventListener - executing insertions
+21:37:15.505 [21] DEBUG NHibernate.Event.Default.AbstractSaveEventListener - executing identity-insert immediately
+21:37:15.505 [21] DEBUG NHibernate.Event.Default.AbstractSaveEventListener - executing identity-insert immediately
+21:37:15.505 [21] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Inserting entity: AgileTickets.Web.Models.Estabelecimento (native id)
+21:37:15.505 [21] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Inserting entity: AgileTickets.Web.Models.Estabelecimento (native id)
+21:37:15.505 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+21:37:15.505 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+21:37:15.505 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: INSERT INTO "Estabelecimento" (Nome, Endereco) VALUES (?, ?); select last_insert_rowid()
+21:37:15.505 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: INSERT INTO "Estabelecimento" (Nome, Endereco) VALUES (?, ?); select last_insert_rowid()
+21:37:15.505 [21] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Dehydrating entity: [AgileTickets.Web.Models.Estabelecimento#<null>]
+21:37:15.505 [21] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Dehydrating entity: [AgileTickets.Web.Models.Estabelecimento#<null>]
+21:37:15.505 [21] DEBUG NHibernate.Type.StringType - binding 'Estabelecimento X' to parameter: 0
+21:37:15.505 [21] DEBUG NHibernate.Type.StringType - binding 'Estabelecimento X' to parameter: 0
+21:37:15.505 [21] DEBUG NHibernate.Type.StringType - binding 'Rua Y' to parameter: 1
+21:37:15.505 [21] DEBUG NHibernate.Type.StringType - binding 'Rua Y' to parameter: 1
+21:37:15.505 [21] DEBUG NHibernate.SQL - 
+    INSERT 
+    INTO
+        "Estabelecimento"
+        (Nome, Endereco) 
+    VALUES
+        (@p0, @p1);
     select
-        sessao0_.Id as Id2_,
-        sessao0_.IngressosReservados as Ingresso2_2_,
-        sessao0_.TotalDeIngressos as TotalDeI3_2_,
-        sessao0_.Inicio as Inicio2_,
-        sessao0_.Espetaculo_id as Espetaculo5_2_ 
-    from
-        "Sessao" sessao0_ 
-    where
-        sessao0_.Inicio>@p0 
-    order by
-        sessao0_.Inicio desc limit @p1;
-    @p0 = 22/05/2014 21:49:46 [Type: DateTime (0)],
-    @p1 = 10 [Type: Int32 (0)]
-21:49:46.339 [4] DEBUG NHibernate.SQL - 
+        last_insert_rowid();
+    @p0 = 'Estabelecimento X' [Type: String (0)],
+    @p1 = 'Rua Y' [Type: String (0)]
+21:37:15.505 [21] DEBUG NHibernate.SQL - 
+    INSERT 
+    INTO
+        "Estabelecimento"
+        (Nome, Endereco) 
+    VALUES
+        (@p0, @p1);
     select
-        sessao0_.Id as Id2_,
-        sessao0_.IngressosReservados as Ingresso2_2_,
-        sessao0_.TotalDeIngressos as TotalDeI3_2_,
-        sessao0_.Inicio as Inicio2_,
-        sessao0_.Espetaculo_id as Espetaculo5_2_ 
-    from
-        "Sessao" sessao0_ 
-    where
-        sessao0_.Inicio>@p0 
-    order by
-        sessao0_.Inicio desc limit @p1;
-    @p0 = 22/05/2014 21:49:46 [Type: DateTime (0)],
-    @p1 = 10 [Type: Int32 (0)]
-21:49:46.339 [4] DEBUG NHibernate.SQL - 
+        last_insert_rowid();
+    @p0 = 'Estabelecimento X' [Type: String (0)],
+    @p1 = 'Rua Y' [Type: String (0)]
+21:37:15.505 [21] DEBUG NHibernate.SQL - 
+    INSERT 
+    INTO
+        "Estabelecimento"
+        (Nome, Endereco) 
+    VALUES
+        (@p0, @p1);
     select
-        sessao0_.Id as Id2_,
-        sessao0_.IngressosReservados as Ingresso2_2_,
-        sessao0_.TotalDeIngressos as TotalDeI3_2_,
-        sessao0_.Inicio as Inicio2_,
-        sessao0_.Espetaculo_id as Espetaculo5_2_ 
-    from
-        "Sessao" sessao0_ 
-    where
-        sessao0_.Inicio>@p0 
-    order by
-        sessao0_.Inicio desc limit @p1;
-    @p0 = 22/05/2014 21:49:46 [Type: DateTime (0)],
-    @p1 = 10 [Type: Int32 (0)]
-21:49:46.339 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:46.339 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:46.341 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:46.341 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:46.341 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:46.341 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:46.341 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Id2_
-21:49:46.341 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Id2_
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#10]
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#10]
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#10]
-21:49:46.341 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#10]
-21:49:46.341 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#10]
-21:49:46.341 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#10]
-21:49:46.341 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Ingresso2_2_
-21:49:46.341 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Ingresso2_2_
-21:49:46.341 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.341 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.341 [4] DEBUG NHibernate.Type.DateTimeType - returning '07/06/2014 21:34:14' as column: Inicio2_
-21:49:46.341 [4] DEBUG NHibernate.Type.DateTimeType - returning '07/06/2014 21:34:14' as column: Inicio2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result set row: 1
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result set row: 1
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Id2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Id2_
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#9]
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#9]
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#9]
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#9]
-21:49:46.342 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#9]
-21:49:46.342 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#9]
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Ingresso2_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Ingresso2_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.DateTimeType - returning '06/06/2014 21:34:14' as column: Inicio2_
-21:49:46.342 [4] DEBUG NHibernate.Type.DateTimeType - returning '06/06/2014 21:34:14' as column: Inicio2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result set row: 2
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result set row: 2
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Id2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Id2_
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#8]
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#8]
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#8]
-21:49:46.342 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#8]
-21:49:46.342 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#8]
-21:49:46.342 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#8]
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Ingresso2_2_
-21:49:46.342 [4] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Ingresso2_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.DateTimeType - returning '05/06/2014 21:34:13' as column: Inicio2_
-21:49:46.343 [4] DEBUG NHibernate.Type.DateTimeType - returning '05/06/2014 21:34:13' as column: Inicio2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result set row: 3
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result set row: 3
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Id2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Id2_
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#7]
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#7]
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#7]
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#7]
-21:49:46.343 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#7]
-21:49:46.343 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#7]
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Ingresso2_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Ingresso2_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.DateTimeType - returning '04/06/2014 21:34:13' as column: Inicio2_
-21:49:46.343 [4] DEBUG NHibernate.Type.DateTimeType - returning '04/06/2014 21:34:13' as column: Inicio2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result set row: 4
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result set row: 4
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Id2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Id2_
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#6]
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#6]
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#6]
-21:49:46.343 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#6]
-21:49:46.343 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#6]
-21:49:46.343 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#6]
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Ingresso2_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Ingresso2_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.343 [4] DEBUG NHibernate.Type.DateTimeType - returning '03/06/2014 21:34:13' as column: Inicio2_
-21:49:46.343 [4] DEBUG NHibernate.Type.DateTimeType - returning '03/06/2014 21:34:13' as column: Inicio2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result set row: 5
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result set row: 5
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Id2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Id2_
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#5]
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#5]
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#5]
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#5]
-21:49:46.344 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#5]
-21:49:46.344 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#5]
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Ingresso2_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Ingresso2_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.DateTimeType - returning '02/06/2014 21:34:13' as column: Inicio2_
-21:49:46.344 [4] DEBUG NHibernate.Type.DateTimeType - returning '02/06/2014 21:34:13' as column: Inicio2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result set row: 6
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result set row: 6
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Id2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Id2_
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#4]
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#4]
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#4]
-21:49:46.344 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#4]
-21:49:46.344 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#4]
-21:49:46.344 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#4]
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Ingresso2_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Ingresso2_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.344 [4] DEBUG NHibernate.Type.DateTimeType - returning '01/06/2014 21:34:13' as column: Inicio2_
-21:49:46.344 [4] DEBUG NHibernate.Type.DateTimeType - returning '01/06/2014 21:34:13' as column: Inicio2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result set row: 7
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result set row: 7
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Id2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Id2_
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#3]
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#3]
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#3]
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#3]
-21:49:46.345 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#3]
-21:49:46.345 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#3]
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Ingresso2_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Ingresso2_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.DateTimeType - returning '31/05/2014 21:34:13' as column: Inicio2_
-21:49:46.345 [4] DEBUG NHibernate.Type.DateTimeType - returning '31/05/2014 21:34:13' as column: Inicio2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result set row: 8
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result set row: 8
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id2_
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#2]
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#2]
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#2]
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#2]
-21:49:46.345 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#2]
-21:49:46.345 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#2]
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Ingresso2_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Ingresso2_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.DateTimeType - returning '30/05/2014 21:34:13' as column: Inicio2_
-21:49:46.345 [4] DEBUG NHibernate.Type.DateTimeType - returning '30/05/2014 21:34:13' as column: Inicio2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.345 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Espetaculo5_2_
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result set row: 9
-21:49:46.345 [4] DEBUG NHibernate.Loader.Loader - result set row: 9
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id2_
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id2_
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#1]
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Sessao#1]
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#1]
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Sessao#1]
-21:49:46.346 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#1]
-21:49:46.346 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Sessao#1]
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Ingresso2_2_
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Ingresso2_2_
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '10' as column: TotalDeI3_2_
-21:49:46.346 [4] DEBUG NHibernate.Type.DateTimeType - returning '29/05/2014 21:34:13' as column: Inicio2_
-21:49:46.346 [4] DEBUG NHibernate.Type.DateTimeType - returning '29/05/2014 21:34:13' as column: Inicio2_
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.346 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Espetaculo5_2_
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - done processing result set (10 rows)
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - done processing result set (10 rows)
-21:49:46.346 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:46.346 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 5 ms
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 5 ms
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.346 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.346 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:46.346 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 10
-21:49:46.346 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 10
-21:49:46.346 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#10]
-21:49:46.346 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#10]
-21:49:46.346 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.346 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - creating new proxy for entity
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - creating new proxy for entity
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#10]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#10]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#9]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#9]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - creating new proxy for entity
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - creating new proxy for entity
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#9]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#9]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#8]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#8]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#8]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#8]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#7]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#7]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.347 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#7]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#7]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#6]
-21:49:46.347 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#6]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#6]
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#6]
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#5]
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#5]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#5]
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#5]
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#4]
-21:49:46.348 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#4]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.348 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#4]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#4]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#3]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#3]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#3]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#3]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#2]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#2]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#2]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#2]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#1]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Sessao#1]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#1]
-21:49:46.349 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Sessao#1]
-21:49:46.349 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:46.349 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:46.349 [4] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:49:46.349 [4] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:49:46.349 [4] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:49:46.349 [4] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:49:46.349 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.349 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.355 [4] DEBUG NHibernate.Impl.SessionImpl - initializing proxy: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Impl.SessionImpl - initializing proxy: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - attempting to resolve: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - attempting to resolve: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - object not resolved in any cache: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - object not resolved in any cache: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Fetching entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Fetching entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Loader.Loader - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.Loader.Loader - loading entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.355 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:46.355 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:46.356 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=?
-21:49:46.356 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=?
-21:49:46.356 [4] DEBUG NHibernate.Type.Int32Type - binding '2' to parameter: 0
-21:49:46.356 [4] DEBUG NHibernate.Type.Int32Type - binding '2' to parameter: 0
-21:49:46.356 [4] INFO  NHibernate.Loader.Loader - SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=@p0
-21:49:46.356 [4] INFO  NHibernate.Loader.Loader - SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=@p0
-21:49:46.356 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        espetaculo0_.Id as Id0_0_,
-        espetaculo0_.Descricao as Descricao0_0_,
-        espetaculo0_.Nome as Nome0_0_,
-        espetaculo0_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" espetaculo0_ 
-    WHERE
-        espetaculo0_.Id=@p0;
-    @p0 = 2 [Type: Int32 (0)]
-21:49:46.356 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        espetaculo0_.Id as Id0_0_,
-        espetaculo0_.Descricao as Descricao0_0_,
-        espetaculo0_.Nome as Nome0_0_,
-        espetaculo0_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" espetaculo0_ 
-    WHERE
-        espetaculo0_.Id=@p0;
-    @p0 = 2 [Type: Int32 (0)]
-21:49:46.356 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        espetaculo0_.Id as Id0_0_,
-        espetaculo0_.Descricao as Descricao0_0_,
-        espetaculo0_.Nome as Nome0_0_,
-        espetaculo0_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" espetaculo0_ 
-    WHERE
-        espetaculo0_.Id=@p0;
-    @p0 = 2 [Type: Int32 (0)]
-21:49:46.356 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:46.356 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:46.357 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:46.357 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:46.357 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:46.357 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:46.357 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:46.357 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Type.StringType - returning 'Show muito legal!' as column: Descricao0_0_
-21:49:46.358 [4] DEBUG NHibernate.Type.StringType - returning 'Show muito legal!' as column: Descricao0_0_
-21:49:46.358 [4] DEBUG NHibernate.Type.StringType - returning 'Mamma Mia!' as column: Nome0_0_
-21:49:46.358 [4] DEBUG NHibernate.Type.StringType - returning 'Mamma Mia!' as column: Nome0_0_
-21:49:46.358 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:46.358 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:49:46.358 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:46.358 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.358 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.358 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:46.358 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:49:46.358 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:49:46.358 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.358 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#2]
-21:49:46.358 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#2]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - creating new proxy for entity
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - creating new proxy for entity
-21:49:46.359 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.359 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#2]
-21:49:46.359 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:46.359 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:46.359 [4] DEBUG NHibernate.Loader.Loader - done entity load
-21:49:46.359 [4] DEBUG NHibernate.Loader.Loader - done entity load
-21:49:46.359 [4] DEBUG NHibernate.Impl.SessionImpl - initializing proxy: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Impl.SessionImpl - initializing proxy: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - attempting to resolve: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - attempting to resolve: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - object not resolved in any cache: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - object not resolved in any cache: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Fetching entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Fetching entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Loader.Loader - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.Loader.Loader - loading entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.359 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:46.359 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:46.359 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=?
-21:49:46.359 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=?
-21:49:46.359 [4] DEBUG NHibernate.Type.Int32Type - binding '1' to parameter: 0
-21:49:46.359 [4] DEBUG NHibernate.Type.Int32Type - binding '1' to parameter: 0
-21:49:46.359 [4] INFO  NHibernate.Loader.Loader - SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=@p0
-21:49:46.359 [4] INFO  NHibernate.Loader.Loader - SELECT espetaculo0_.Id as Id0_0_, espetaculo0_.Descricao as Descricao0_0_, espetaculo0_.Nome as Nome0_0_, espetaculo0_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" espetaculo0_ WHERE espetaculo0_.Id=@p0
-21:49:46.360 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        espetaculo0_.Id as Id0_0_,
-        espetaculo0_.Descricao as Descricao0_0_,
-        espetaculo0_.Nome as Nome0_0_,
-        espetaculo0_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" espetaculo0_ 
-    WHERE
-        espetaculo0_.Id=@p0;
-    @p0 = 1 [Type: Int32 (0)]
-21:49:46.360 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        espetaculo0_.Id as Id0_0_,
-        espetaculo0_.Descricao as Descricao0_0_,
-        espetaculo0_.Nome as Nome0_0_,
-        espetaculo0_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" espetaculo0_ 
-    WHERE
-        espetaculo0_.Id=@p0;
-    @p0 = 1 [Type: Int32 (0)]
-21:49:46.360 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        espetaculo0_.Id as Id0_0_,
-        espetaculo0_.Descricao as Descricao0_0_,
-        espetaculo0_.Nome as Nome0_0_,
-        espetaculo0_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" espetaculo0_ 
-    WHERE
-        espetaculo0_.Id=@p0;
-    @p0 = 1 [Type: Int32 (0)]
-21:49:46.360 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:46.360 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:46.361 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:46.361 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:46.361 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:46.361 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.361 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.361 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.361 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.362 [4] DEBUG NHibernate.Type.StringType - returning 'Espetáculo que se passa em Londres' as column: Descricao0_0_
-21:49:46.362 [4] DEBUG NHibernate.Type.StringType - returning 'Espetáculo que se passa em Londres' as column: Descricao0_0_
-21:49:46.362 [4] DEBUG NHibernate.Type.StringType - returning 'O Médico e o Monstro' as column: Nome0_0_
-21:49:46.362 [4] DEBUG NHibernate.Type.StringType - returning 'O Médico e o Monstro' as column: Nome0_0_
-21:49:46.362 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:46.362 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:46.362 [4] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:49:46.362 [4] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:49:46.362 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:46.362 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 0 ms
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 0 ms
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.362 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:46.362 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:46.362 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:46.362 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:49:46.362 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:49:46.362 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.362 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.362 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#1]
-21:49:46.362 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#1]
-21:49:46.362 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:46.362 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:46.362 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.362 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity proxy found in session cache
-21:49:46.362 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.362 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#1]
-21:49:46.362 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:46.362 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:46.362 [4] DEBUG NHibernate.Loader.Loader - done entity load
-21:49:46.362 [4] DEBUG NHibernate.Loader.Loader - done entity load
-21:49:46.364 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=107f6463-1185-4d88-af30-f916d99066e5] running ISession.Dispose()
-21:49:46.364 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=107f6463-1185-4d88-af30-f916d99066e5] running ISession.Dispose()
-21:49:46.364 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=107f6463-1185-4d88-af30-f916d99066e5] executing real Dispose(True)
-21:49:46.364 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=107f6463-1185-4d88-af30-f916d99066e5] executing real Dispose(True)
-21:49:46.364 [4] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:49:46.364 [4] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:49:46.364 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:49:46.364 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:49:49.686 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=aab8f512-cb6c-4190-a778-7df637ed5bf4] opened session at timestamp: 635363921896, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:49:49.686 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=aab8f512-cb6c-4190-a778-7df637ed5bf4] opened session at timestamp: 635363921896, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:49:49.687 [4] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
-21:49:49.687 [4] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
-21:49:49.687 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:49.687 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:49.687 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
-21:49:49.687 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
-21:49:49.687 [4] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
-21:49:49.687 [4] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
-21:49:49.688 [4] DEBUG NHibernate.SQL - 
+        last_insert_rowid();
+    @p0 = 'Estabelecimento X' [Type: String (0)],
+    @p1 = 'Rua Y' [Type: String (0)]
+21:37:15.505 [21] DEBUG NHibernate.Transaction.AdoTransaction - Enlist Command
+21:37:15.505 [21] DEBUG NHibernate.Transaction.AdoTransaction - Enlist Command
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+21:37:15.506 [21] DEBUG NHibernate.Type.Int32Type - returning '13' as column: last_insert_rowid()
+21:37:15.506 [21] DEBUG NHibernate.Type.Int32Type - returning '13' as column: last_insert_rowid()
+21:37:15.506 [21] DEBUG NHibernate.Id.IdentifierGeneratorFactory - Natively generated identity: 13
+21:37:15.506 [21] DEBUG NHibernate.Id.IdentifierGeneratorFactory - Natively generated identity: 13
+21:37:15.506 [21] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+21:37:15.506 [21] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 0 ms
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 0 ms
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+21:37:15.506 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+21:37:15.506 [21] DEBUG NHibernate.Transaction.AdoTransaction - Start Commit
+21:37:15.506 [21] DEBUG NHibernate.Transaction.AdoTransaction - Start Commit
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - flushing session
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - flushing session
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - processing flush-time cascades
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - processing flush-time cascades
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - dirty checking collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - dirty checking collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushing entities and processing referenced collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushing entities and processing referenced collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Processing unreferenced collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Processing unreferenced collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Scheduling collection removes/(re)creates/updates
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Scheduling collection removes/(re)creates/updates
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+21:37:15.507 [21] DEBUG NHibernate.Impl.Printer - listing entities:
+21:37:15.507 [21] DEBUG NHibernate.Impl.Printer - listing entities:
+21:37:15.507 [21] DEBUG NHibernate.Impl.Printer - AgileTickets.Web.Models.Estabelecimento{'Id'='13', 'Nome'='Estabelecimento X', 'Endereco'='Rua Y'}
+21:37:15.507 [21] DEBUG NHibernate.Impl.Printer - AgileTickets.Web.Models.Estabelecimento{'Id'='13', 'Nome'='Estabelecimento X', 'Endereco'='Rua Y'}
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - executing flush
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - executing flush
+21:37:15.507 [21] DEBUG NHibernate.AdoNet.ConnectionManager - registering flush begin
+21:37:15.507 [21] DEBUG NHibernate.AdoNet.ConnectionManager - registering flush begin
+21:37:15.507 [21] DEBUG NHibernate.AdoNet.ConnectionManager - registering flush end
+21:37:15.507 [21] DEBUG NHibernate.AdoNet.ConnectionManager - registering flush end
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - post flush
+21:37:15.507 [21] DEBUG NHibernate.Event.Default.AbstractFlushingEventListener - post flush
+21:37:15.507 [21] DEBUG NHibernate.Impl.SessionImpl - before transaction completion
+21:37:15.507 [21] DEBUG NHibernate.Impl.SessionImpl - before transaction completion
+21:37:15.761 [21] DEBUG NHibernate.Transaction.AdoTransaction - IDbTransaction Committed
+21:37:15.761 [21] DEBUG NHibernate.Transaction.AdoTransaction - IDbTransaction Committed
+21:37:15.761 [21] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:15.761 [21] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:15.762 [21] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:15.762 [21] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:15.762 [21] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+21:37:15.762 [21] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+21:37:15.762 [21] DEBUG NHibernate.Transaction.AdoTransaction - IDbTransaction disposed.
+21:37:15.762 [21] DEBUG NHibernate.Transaction.AdoTransaction - IDbTransaction disposed.
+21:37:15.763 [21] DEBUG NHibernate.Impl.SessionImpl - [session-id=233b1fd7-26a7-4ec1-ad28-152a6d4a6e5d] running ISession.Dispose()
+21:37:15.763 [21] DEBUG NHibernate.Impl.SessionImpl - [session-id=233b1fd7-26a7-4ec1-ad28-152a6d4a6e5d] running ISession.Dispose()
+21:37:15.763 [21] DEBUG NHibernate.Impl.SessionImpl - [session-id=233b1fd7-26a7-4ec1-ad28-152a6d4a6e5d] executing real Dispose(True)
+21:37:15.763 [21] DEBUG NHibernate.Impl.SessionImpl - [session-id=233b1fd7-26a7-4ec1-ad28-152a6d4a6e5d] executing real Dispose(True)
+21:37:15.763 [21] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:15.763 [21] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:15.763 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:15.763 [21] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:15.783 [22] DEBUG NHibernate.Impl.SessionImpl - [session-id=804e0d23-d600-483d-9ecd-3a86081831f6] opened session at timestamp: 635364778357, for session factory: [/0a8d8b2300f04b49a758eac4b4fcc802]
+21:37:15.783 [22] DEBUG NHibernate.Impl.SessionImpl - [session-id=804e0d23-d600-483d-9ecd-3a86081831f6] opened session at timestamp: 635364778357, for session factory: [/0a8d8b2300f04b49a758eac4b4fcc802]
+21:37:15.783 [22] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
+21:37:15.783 [22] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
+21:37:15.784 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+21:37:15.784 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
+21:37:15.784 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:15.784 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:15.784 [22] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:15.784 [22] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id1_0_, this_.Nome as Nome1_0_, this_.Endereco as Endereco1_0_ FROM "Estabelecimento" this_
+21:37:15.784 [22] DEBUG NHibernate.SQL - 
     SELECT
         this_.Id as Id1_0_,
         this_.Nome as Nome1_0_,
         this_.Endereco as Endereco1_0_ 
     FROM
         "Estabelecimento" this_
-21:49:49.688 [4] DEBUG NHibernate.SQL - 
+21:37:15.784 [22] DEBUG NHibernate.SQL - 
     SELECT
         this_.Id as Id1_0_,
         this_.Nome as Nome1_0_,
         this_.Endereco as Endereco1_0_ 
     FROM
         "Estabelecimento" this_
-21:49:49.688 [4] DEBUG NHibernate.SQL - 
+21:37:15.784 [22] DEBUG NHibernate.SQL - 
     SELECT
         this_.Id as Id1_0_,
         this_.Nome as Nome1_0_,
         this_.Endereco as Endereco1_0_ 
     FROM
         "Estabelecimento" this_
-21:49:49.688 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:49.688 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:49.691 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:49.691 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:49.691 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:49.691 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:49.691 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:49.691 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:49.692 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:49.692 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:49.692 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
-21:49:49.692 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
-21:49:49.692 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.692 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.692 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.692 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.692 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.692 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.692 [4] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
-21:49:49.692 [4] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
-21:49:49.692 [4] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
-21:49:49.692 [4] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
-21:49:49.693 [4] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:49:49.693 [4] DEBUG NHibernate.Loader.Loader - done processing result set (1 rows)
-21:49:49.693 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:49.693 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 2 ms
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 2 ms
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.693 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.693 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:49.693 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:49.693 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:49:49.693 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 1
-21:49:49.693 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.693 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.693 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.693 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.694 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:49.694 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:49:49.694 [4] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:49:49.694 [4] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.694 [4] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
-21:49:49.694 [4] DEBUG NHibernate.Loader.Criteria.CriteriaQueryTranslator - put criteria= alias=this0_
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened new IDbCommand, open IDbCommands: 1
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:49:49.694 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Building an IDbCommand object for the SqlString: SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:49:49.694 [4] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:49:49.694 [4] INFO  NHibernate.Loader.Loader - SELECT this_.Id as Id0_0_, this_.Descricao as Descricao0_0_, this_.Nome as Nome0_0_, this_.Estabelecimento_id as Estabele4_0_0_ FROM "Espetaculo" this_
-21:49:49.694 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        this_.Id as Id0_0_,
-        this_.Descricao as Descricao0_0_,
-        this_.Nome as Nome0_0_,
-        this_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" this_
-21:49:49.694 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        this_.Id as Id0_0_,
-        this_.Descricao as Descricao0_0_,
-        this_.Nome as Nome0_0_,
-        this_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" this_
-21:49:49.694 [4] DEBUG NHibernate.SQL - 
-    SELECT
-        this_.Id as Id0_0_,
-        this_.Descricao as Descricao0_0_,
-        this_.Nome as Nome0_0_,
-        this_.Estabelecimento_id as Estabele4_0_0_ 
-    FROM
-        "Espetaculo" this_
-21:49:49.694 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:49.694 [4] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
-21:49:49.696 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:49.696 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
-21:49:49.696 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:49.696 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - processing result set
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result set row: 0
-21:49:49.696 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id0_0_
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.696 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.696 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.696 [4] DEBUG NHibernate.Type.StringType - returning 'Espetáculo que se passa em Londres' as column: Descricao0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.StringType - returning 'Espetáculo que se passa em Londres' as column: Descricao0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.StringType - returning 'O Médico e o Monstro' as column: Nome0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.StringType - returning 'O Médico e o Monstro' as column: Nome0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result set row: 1
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result set row: 1
-21:49:49.696 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id0_0_
-21:49:49.696 [4] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id0_0_
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.696 [4] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Type.StringType - returning 'Show muito legal!' as column: Descricao0_0_
-21:49:49.697 [4] DEBUG NHibernate.Type.StringType - returning 'Show muito legal!' as column: Descricao0_0_
-21:49:49.697 [4] DEBUG NHibernate.Type.StringType - returning 'Mamma Mia!' as column: Nome0_0_
-21:49:49.697 [4] DEBUG NHibernate.Type.StringType - returning 'Mamma Mia!' as column: Nome0_0_
-21:49:49.697 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:49.697 [4] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Estabele4_0_0_
-21:49:49.697 [4] DEBUG NHibernate.Loader.Loader - done processing result set (2 rows)
-21:49:49.697 [4] DEBUG NHibernate.Loader.Loader - done processing result set (2 rows)
-21:49:49.697 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:49.697 [4] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 1 ms
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.697 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:49.697 [4] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
-21:49:49.697 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 2
-21:49:49.697 [4] DEBUG NHibernate.Loader.Loader - total objects hydrated: 2
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.697 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#1]
-21:49:49.697 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#1]
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#1]
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#2]
-21:49:49.697 [4] DEBUG NHibernate.Engine.Loading.LoadContexts - creating collection wrapper:[AgileTickets.Web.Models.Espetaculo.Sessoes#2]
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - loading entity: [AgileTickets.Web.Models.Estabelecimento#1]
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:49:49.697 [4] DEBUG NHibernate.Event.Default.DefaultLoadEventListener - entity found in session cache
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Espetaculo#2]
-21:49:49.697 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:49.697 [4] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:49:49.697 [4] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
-21:49:49.698 [4] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:49:49.698 [4] DEBUG NHibernate.Impl.SessionImpl - transaction completion
-21:49:49.698 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.698 [4] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
-21:49:49.703 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=aab8f512-cb6c-4190-a778-7df637ed5bf4] running ISession.Dispose()
-21:49:49.703 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=aab8f512-cb6c-4190-a778-7df637ed5bf4] running ISession.Dispose()
-21:49:49.703 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=aab8f512-cb6c-4190-a778-7df637ed5bf4] executing real Dispose(True)
-21:49:49.703 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=aab8f512-cb6c-4190-a778-7df637ed5bf4] executing real Dispose(True)
-21:49:49.703 [4] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:49:49.703 [4] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:49:49.703 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:49:49.703 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:49:54.577 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=90a7e785-2bbe-48b4-8037-1f32689607dd] opened session at timestamp: 635363921945, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:49:54.577 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=90a7e785-2bbe-48b4-8037-1f32689607dd] opened session at timestamp: 635363921945, for session factory: [/7ca3f7679a9e479bb45d0ffad78a25ac]
-21:49:54.588 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=90a7e785-2bbe-48b4-8037-1f32689607dd] running ISession.Dispose()
-21:49:54.588 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=90a7e785-2bbe-48b4-8037-1f32689607dd] running ISession.Dispose()
-21:49:54.588 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=90a7e785-2bbe-48b4-8037-1f32689607dd] executing real Dispose(True)
-21:49:54.588 [4] DEBUG NHibernate.Impl.SessionImpl - [session-id=90a7e785-2bbe-48b4-8037-1f32689607dd] executing real Dispose(True)
-21:49:54.588 [4] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:49:54.588 [4] DEBUG NHibernate.Impl.SessionImpl - closing session
-21:49:54.588 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
-21:49:54.588 [4] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:15.784 [22] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+21:37:15.784 [22] DEBUG NHibernate.Connection.DriverConnectionProvider - Obtaining IDbConnection from Driver
+21:37:15.786 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+21:37:15.786 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - ExecuteReader took 0 ms
+21:37:15.786 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+21:37:15.786 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Opened IDataReader, open IDataReaders: 1
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - processing result set
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - processing result set
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - result set row: 0
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - result set row: 0
+21:37:15.786 [22] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
+21:37:15.786 [22] DEBUG NHibernate.Type.Int32Type - returning '1' as column: Id1_0_
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.786 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.786 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.786 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.786 [22] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
+21:37:15.786 [22] DEBUG NHibernate.Type.StringType - returning 'Estádio do Morumbi' as column: Nome1_0_
+21:37:15.786 [22] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
+21:37:15.786 [22] DEBUG NHibernate.Type.StringType - returning 'São Paulo / SP' as column: Endereco1_0_
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result set row: 1
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result set row: 1
+21:37:15.787 [22] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.Int32Type - returning '2' as column: Id1_0_
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.787 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.787 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result set row: 2
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result set row: 2
+21:37:15.787 [22] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Id1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.Int32Type - returning '3' as column: Id1_0_
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.787 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.787 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result set row: 3
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result set row: 3
+21:37:15.787 [22] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Id1_0_
+21:37:15.787 [22] DEBUG NHibernate.Type.Int32Type - returning '4' as column: Id1_0_
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.787 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.788 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.788 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result set row: 4
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result set row: 4
+21:37:15.788 [22] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Id1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.Int32Type - returning '5' as column: Id1_0_
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.788 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.788 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result set row: 5
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result set row: 5
+21:37:15.788 [22] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Id1_0_
+21:37:15.788 [22] DEBUG NHibernate.Type.Int32Type - returning '6' as column: Id1_0_
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.788 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.789 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.789 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result set row: 6
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result set row: 6
+21:37:15.789 [22] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Id1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.Int32Type - returning '7' as column: Id1_0_
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.789 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.789 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result set row: 7
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result set row: 7
+21:37:15.789 [22] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Id1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.Int32Type - returning '8' as column: Id1_0_
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.789 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.789 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.789 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.789 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result set row: 8
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result set row: 8
+21:37:15.790 [22] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Id1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.Int32Type - returning '9' as column: Id1_0_
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.790 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.790 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result set row: 9
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result set row: 9
+21:37:15.790 [22] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Id1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.Int32Type - returning '10' as column: Id1_0_
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.790 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.790 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result set row: 10
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result set row: 10
+21:37:15.790 [22] DEBUG NHibernate.Type.Int32Type - returning '11' as column: Id1_0_
+21:37:15.790 [22] DEBUG NHibernate.Type.Int32Type - returning '11' as column: Id1_0_
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.790 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.791 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.791 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result set row: 11
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result set row: 11
+21:37:15.791 [22] DEBUG NHibernate.Type.Int32Type - returning '12' as column: Id1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.Int32Type - returning '12' as column: Id1_0_
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.791 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.791 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result set row: 12
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result set row: 12
+21:37:15.791 [22] DEBUG NHibernate.Type.Int32Type - returning '13' as column: Id1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.Int32Type - returning '13' as column: Id1_0_
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - result row: EntityKey[AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.791 [22] DEBUG NHibernate.Loader.Loader - Initializing object from DataReader: [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.791 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.791 [22] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister - Hydrating entity: [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Estabelecimento X' as column: Nome1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.791 [22] DEBUG NHibernate.Type.StringType - returning 'Rua Y' as column: Endereco1_0_
+21:37:15.792 [22] DEBUG NHibernate.Loader.Loader - done processing result set (13 rows)
+21:37:15.792 [22] DEBUG NHibernate.Loader.Loader - done processing result set (13 rows)
+21:37:15.792 [22] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+21:37:15.792 [22] DEBUG NHibernate.Driver.NHybridDataReader - running NHybridDataReader.Dispose()
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDataReader, open IDataReaders :0
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 6 ms
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - DataReader was closed after 6 ms
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - Closed IDbCommand, open IDbCommands: 0
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:15.792 [22] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:15.792 [22] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+21:37:15.792 [22] DEBUG NHibernate.Connection.ConnectionProvider - Closing connection
+21:37:15.792 [22] DEBUG NHibernate.Loader.Loader - total objects hydrated: 13
+21:37:15.792 [22] DEBUG NHibernate.Loader.Loader - total objects hydrated: 13
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#1]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#2]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#3]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.792 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#4]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#5]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#6]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#7]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#8]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#9]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#10]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#11]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#12]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - resolving associations for [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.793 [22] DEBUG NHibernate.Engine.TwoPhaseLoad - done materializing entity [AgileTickets.Web.Models.Estabelecimento#13]
+21:37:15.793 [22] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
+21:37:15.793 [22] DEBUG NHibernate.Engine.StatefulPersistenceContext - initializing non-lazy collections
+21:37:15.793 [22] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
+21:37:15.793 [22] DEBUG NHibernate.AdoNet.ConnectionManager - after autocommit
+21:37:15.794 [22] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:15.794 [22] DEBUG NHibernate.Impl.SessionImpl - transaction completion
+21:37:15.794 [22] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:15.794 [22] DEBUG NHibernate.AdoNet.ConnectionManager - aggressively releasing database connection
+21:37:15.797 [22] DEBUG NHibernate.Impl.SessionImpl - [session-id=804e0d23-d600-483d-9ecd-3a86081831f6] running ISession.Dispose()
+21:37:15.797 [22] DEBUG NHibernate.Impl.SessionImpl - [session-id=804e0d23-d600-483d-9ecd-3a86081831f6] running ISession.Dispose()
+21:37:15.797 [22] DEBUG NHibernate.Impl.SessionImpl - [session-id=804e0d23-d600-483d-9ecd-3a86081831f6] executing real Dispose(True)
+21:37:15.797 [22] DEBUG NHibernate.Impl.SessionImpl - [session-id=804e0d23-d600-483d-9ecd-3a86081831f6] executing real Dispose(True)
+21:37:15.797 [22] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:15.797 [22] DEBUG NHibernate.Impl.SessionImpl - closing session
+21:37:15.797 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)
+21:37:15.797 [22] DEBUG NHibernate.AdoNet.AbstractBatcher - running BatcherImpl.Dispose(true)

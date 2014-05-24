@@ -94,7 +94,7 @@ namespace Tests.Models
 
         //[Test]
         //public void SessaoComInicioIgualAFim()
-        //{
+        //{00000099999000oooiikkkkkkkllooooi99oookl,m,m,mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm,kkiii
         //    Espetaculo ivete = new Espetaculo();
          
         //    DateTime data = new DateTime(2014, 2, 10);
@@ -110,6 +110,5 @@ namespace Tests.Models
 
         //    Assert.IsTrue(sessoes.First().Inicio == data);
         //}
-
     }
 }
